@@ -13,8 +13,10 @@ repositories {
 dependencies {
     // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
     implementation 'org.springframework:spring-webmvc:5.3.14'
-    // https://mvnrepository.com/artifact/javax.servlet/servlet-api
+    // https://mvnrepository.com/artifact/javax.servlet/servlet-api'
     implementation 'javax.servlet:servlet-api:2.5'
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:2.3.3'
     implementation 'com.sun.jersey.contribs:jersey-spring:1.17'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
